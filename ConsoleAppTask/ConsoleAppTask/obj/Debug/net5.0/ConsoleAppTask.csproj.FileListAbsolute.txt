@@ -1,0 +1,16 @@
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\bin\Debug\net5.0\ConsoleAppTask.exe
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\bin\Debug\net5.0\ConsoleAppTask.deps.json
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\bin\Debug\net5.0\ConsoleAppTask.runtimeconfig.json
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\bin\Debug\net5.0\ConsoleAppTask.runtimeconfig.dev.json
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\bin\Debug\net5.0\ConsoleAppTask.dll
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\bin\Debug\net5.0\ConsoleAppTask.pdb
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\obj\Debug\net5.0\ConsoleAppTask.csproj.AssemblyReference.cache
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\obj\Debug\net5.0\ConsoleAppTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\obj\Debug\net5.0\ConsoleAppTask.AssemblyInfoInputs.cache
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\obj\Debug\net5.0\ConsoleAppTask.AssemblyInfo.cs
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\obj\Debug\net5.0\ConsoleAppTask.csproj.CoreCompileInputs.cache
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\obj\Debug\net5.0\ConsoleAppTask.dll
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\obj\Debug\net5.0\refint\ConsoleAppTask.dll
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\obj\Debug\net5.0\ConsoleAppTask.pdb
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\obj\Debug\net5.0\ConsoleAppTask.genruntimeconfig.cache
+C:\Users\farid\Desktop\ConsoleAppTask\ConsoleAppTask\obj\Debug\net5.0\ref\ConsoleAppTask.dll
