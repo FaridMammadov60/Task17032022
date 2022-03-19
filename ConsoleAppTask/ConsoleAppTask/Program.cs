@@ -1,6 +1,7 @@
 ﻿using ConsoleAppTask.Model;
 using System;
 using System.Text.RegularExpressions;
+using System.Text;
 
 namespace ConsoleAppTask
 {
@@ -8,6 +9,9 @@ namespace ConsoleAppTask
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding=Encoding.Unicode;
+            Console.InputEncoding=Encoding.Unicode;
+
             Console.WriteLine("Username enter: ");
             string username=Console.ReadLine();
             Console.WriteLine("Password enter: ");
@@ -19,8 +23,9 @@ namespace ConsoleAppTask
             {
                 Age =age
             };
+            Console.WriteLine(user);
+            
 
-            ///Console.WriteLine(user);
         }
     }
 }

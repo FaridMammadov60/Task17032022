@@ -3,10 +3,11 @@ using System.Text.RegularExpressions;
 
 namespace ConsoleAppTask.Model
 {
-    internal class User
+    public class User
     {
         #region Fields
         int age;
+        string password;
         #endregion
 
         #region Property
@@ -15,24 +16,28 @@ namespace ConsoleAppTask.Model
         {
             get
             {
-                return Password;
+                return password;
             }
             set
             {
                 if (value.Length < 7)
                 {
                     Console.WriteLine("Uzunluğu 8den kiçik ola bilmez");
+                    return;
 
                 }
                 else if (string.IsNullOrEmpty(value))
 
                 {
                     Console.WriteLine("Boşdur");
+                    return ;
                 }
                 else if (BigAlfb(value) == false)
                 {
                     Console.WriteLine("Parametrler uygun deyil");
+                    return;
                 }
+                password = value;
 
             }
 
@@ -41,7 +46,7 @@ namespace ConsoleAppTask.Model
         {
             get
             {
-                return Age;
+               return age;
             }
 
             set
@@ -50,7 +55,7 @@ namespace ConsoleAppTask.Model
                 {
                     Console.WriteLine("Yaş mənfi ola bilmez");
 
-
+                    return;
                 }
                 else
                 {
@@ -77,16 +82,17 @@ namespace ConsoleAppTask.Model
                 $"User password: {Password}\n";
         }
 
-       /// <summary>
-       /// Qebul edilmis stringi Reqem boyuk herf ve kicik herf olaraq yoxlayir
-       /// </summary>
-       /// <param name="password"></param>
-       /// <returns></returns>
+        /// <summary>
+        /// İçində ən az bir böyük hərf olmalıdır
+        /// İçində ən az bir rəqəm olmalıdır
+        /// </summary>
+        /// <param name="password"></param>
+        /// <returns></returns>
         bool BigAlfb(string password)
         {
             int numericCount = Regex.Matches(password, @"\d").Count;
             int upperCount = Regex.Matches(password, @"[A-Z]").Count;
-            int lowerCount = Regex.Matches(password, @"[a-z]").Count;
+            
             
             if (numericCount==0)
             {
@@ -96,10 +102,7 @@ namespace ConsoleAppTask.Model
             {
                 return false;
             }
-            if (lowerCount == 0)
-            {
-                return false;
-            }
+           
             return true;
         }
 
